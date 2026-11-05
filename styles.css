@@ -1,0 +1,90 @@
+body{margin:0;background:#F6F5F1}
+a{color:#8A5A12}a:hover{color:#5E3D0B}
+html{scroll-behavior:smooth}
+.k1{font-family: 'Source Sans 3', system-ui, sans-serif; color: #13243A; background: #F6F5F1; font-size: 17px; line-height: 1.6}
+.k2{background: #FFFFFF; border-bottom: 1px solid #E2DFD6}
+.k3{max-width: 1200px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px}
+.k4{display: flex; align-items: center; gap: 10px; text-decoration: none; color: #13243A}
+.k5{font-family: 'Sora', sans-serif; font-weight: 700; font-size: 20px; letter-spacing: 0.08em}
+.k6{display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-weight: 600; font-size: 16px}
+.k7{color: #13243A; text-decoration: none}
+.k8{background: #13243A; color: #FFFFFF; text-decoration: none; padding: 11px 20px; border-radius: 8px}
+.k9{max-width: 1200px; margin: 0 auto; padding: 80px 24px 72px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px}
+.k10{flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 22px}
+.k11{margin: 0; font-weight: 600; color: #8A5A12; text-transform: uppercase; letter-spacing: 0.12em; font-size: 14px}
+.k12{margin: 0; font-family: 'Sora', sans-serif; font-weight: 700; font-size: 52px; line-height: 1.12; letter-spacing: -0.02em}
+.k13{margin: 0; font-size: 20px; color: #3D4A5C; max-width: 560px}
+.k14{display: flex; flex-wrap: wrap; gap: 14px; margin-top: 8px}
+.k15{background: #E0A64A; color: #13243A; text-decoration: none; font-weight: 700; padding: 15px 26px; border-radius: 10px}
+.k16{border: 2px solid #13243A; color: #13243A; text-decoration: none; font-weight: 700; padding: 13px 24px; border-radius: 10px}
+.k17{margin: 6px 0 0; font-size: 15px; color: #4A5568}
+.k18{flex: 1 1 420px; min-width: 0; margin: 0}
+.k19{background: #13243A; color: #FFFFFF}
+.k20{max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 48px}
+.k21{display: flex; flex-wrap: wrap; gap: 56px; align-items: center}
+.k22{flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 20px}
+.k23{margin: 0; font-weight: 600; color: #E0A64A; text-transform: uppercase; letter-spacing: 0.12em; font-size: 14px}
+.k24{margin: 0; font-family: 'Sora', sans-serif; font-weight: 700; font-size: 42px; line-height: 1.15; letter-spacing: -0.01em}
+.k25{margin: 0; font-size: 19px; color: #D5DCE6}
+.k26{display: flex; flex-wrap: wrap; gap: 14px; margin-top: 6px}
+.k27{flex: 1 1 360px; min-width: 0; margin: 0}
+.k28{display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px}
+.k29{background: #1C3250; border-radius: 14px; padding: 26px; display: flex; flex-direction: column; gap: 10px}
+.k30{margin: 0; font-family: 'Sora', sans-serif; font-size: 19px; color: #FFFFFF}
+.k31{margin: 0; color: #D5DCE6}
+.k32{margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px}
+.k33{border-top: 3px solid #E0A64A; padding-top: 14px}
+.k34{font-family: 'Sora', sans-serif; color: #E0A64A}
+.k35{color: #D5DCE6}
+.k36{max-width: 1200px; margin: 0 auto; padding: 88px 24px 40px; display: flex; flex-direction: column; gap: 18px}
+.k37{margin: 0; font-family: 'Sora', sans-serif; font-weight: 700; font-size: 40px; line-height: 1.15; letter-spacing: -0.01em; max-width: 760px}
+.k38{margin: 0; font-size: 19px; color: #3D4A5C; max-width: 760px}
+.k39{max-width: 1200px; margin: 0 auto; padding: 32px 24px; display: flex; flex-direction: column; gap: 22px}
+.k40{margin: 0; font-family: 'Sora', sans-serif; font-size: 24px; display: flex; align-items: center; gap: 12px}
+.k41{width: 28px; height: 4px; background: #C98A2B; border-radius: 2px}
+.k42{display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px}
+.k43{background: #FFFFFF; border: 1px solid #E2DFD6; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 12px}
+.k44{width: 50px; height: 50px; border-radius: 12px; background: #FBF3E4; display: flex; align-items: center; justify-content: center}
+.k45{margin: 0; font-family: 'Sora', sans-serif; font-size: 20px}
+.k46{margin: 0; font-weight: 600; color: #8A5A12}
+.k47{margin: 0; padding-inline-start: 20px; color: #3D4A5C}
+.k48{max-width: 1200px; margin: 0 auto; padding: 32px 24px 88px; display: flex; flex-direction: column; gap: 22px}
+.k49{background: #FBF3E4; border: 1px solid #EAD9B8; border-radius: 18px; padding: 36px; display: flex; flex-wrap: wrap; gap: 32px; align-items: center}
+.k50{flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 12px}
+.k51{margin: 0; font-family: 'Sora', sans-serif; font-size: 26px}
+.k52{margin: 0; font-weight: 600; color: #8A5A12; font-size: 19px}
+.k53{margin: 0; color: #3D4A5C}
+.k54{flex: 1 1 340px; min-width: 0; margin: 0; padding-inline-start: 20px; color: #13243A; display: flex; flex-direction: column; gap: 8px}
+.k55{background: #FFFFFF; border-top: 1px solid #E2DFD6; border-bottom: 1px solid #E2DFD6}
+.k56{max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 36px}
+.k57{display: flex; flex-direction: column; gap: 12px}
+.k58{margin: 0; font-family: 'Sora', sans-serif; font-weight: 700; font-size: 36px}
+.k59{margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 24px}
+.k60{display: flex; flex-direction: column; gap: 8px}
+.k61{font-family: 'Sora', sans-serif; font-weight: 700; font-size: 32px; color: #C98A2B}
+.k62{font-size: 19px}
+.k63{color: #3D4A5C}
+.k64{max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center}
+.k65{flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 16px}
+.k66{margin: 0; font-family: 'Sora', sans-serif; font-weight: 700; font-size: 40px; line-height: 1.15}
+.k67{margin: 0; font-size: 19px; color: #3D4A5C}
+.k68{background: #13243A; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 15px 26px; border-radius: 10px}
+.k69{flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 20px}
+.k70{background: #FFFFFF; border: 1px solid #E2DFD6; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px}
+.k71{margin: 0; font-family: 'Sora', sans-serif; font-size: 22px}
+.k72{margin: 0; color: #4A5568; font-size: 15px}
+.k73{display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: 15px}
+.k74{font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #B9B4A6; border-radius: 8px; background: #FFFFFF; color: #13243A; min-height: 44px; box-sizing: border-box}
+.k75{display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px}
+.k76{font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #B9B4A6; border-radius: 8px; background: #FFFFFF; color: #13243A; resize: vertical; box-sizing: border-box}
+.k77{font: inherit; font-weight: 700; background: #13243A; color: #FFFFFF; border: 0; border-radius: 10px; padding: 15px 26px; min-height: 48px; cursor: pointer}
+.k78{margin: 0; font-weight: 600; color: #1F6B3A; display: none}
+.k79{margin: 0; font-size: 13px; color: #4A5568}
+.k80{font-style: normal; background: #FFFFFF; border: 1px solid #E2DFD6; border-radius: 16px; padding: 24px 32px; display: flex; flex-direction: column; gap: 6px}
+.k81{font-family: 'Sora', sans-serif; font-size: 18px}
+.k82{background: #13243A; color: #D5DCE6}
+.k83{max-width: 1200px; margin: 0 auto; padding: 32px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 15px}
+.k84{font-family: 'Sora', sans-serif; font-weight: 700; color: #FFFFFF; letter-spacing: 0.08em}
+.k85{display:none}
+@media (max-width:640px){h1{font-size:36px!important}h2{font-size:30px!important}}
+[dir=rtl] body, [dir=rtl] h1, [dir=rtl] h2, [dir=rtl] h3, [dir=rtl] h4, [dir=rtl] strong, [dir=rtl] span, [dir=rtl] p, [dir=rtl] a, [dir=rtl] li, [dir=rtl] label, [dir=rtl] button, [dir=rtl] input, [dir=rtl] select, [dir=rtl] textarea{font-family:'Tajawal','Source Sans 3',system-ui,sans-serif!important;letter-spacing:0!important}
