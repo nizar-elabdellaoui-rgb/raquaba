@@ -88,3 +88,18 @@ html{scroll-behavior:smooth}
 .k85{display:none}
 @media (max-width:640px){h1{font-size:36px!important}h2{font-size:30px!important}}
 [dir=rtl] body, [dir=rtl] h1, [dir=rtl] h2, [dir=rtl] h3, [dir=rtl] h4, [dir=rtl] strong, [dir=rtl] span, [dir=rtl] p, [dir=rtl] a, [dir=rtl] li, [dir=rtl] label, [dir=rtl] button, [dir=rtl] input, [dir=rtl] select, [dir=rtl] textarea{font-family:'Tajawal','Source Sans 3',system-ui,sans-serif!important;letter-spacing:0!important}
+html:lang(zh) body, html:lang(zh) h1, html:lang(zh) h2, html:lang(zh) h3, html:lang(zh) h4, html:lang(zh) strong, html:lang(zh) span, html:lang(zh) p, html:lang(zh) a, html:lang(zh) li, html:lang(zh) label, html:lang(zh) button, html:lang(zh) input, html:lang(zh) select, html:lang(zh) textarea{font-family:'Sora','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif!important;letter-spacing:0!important}
+.lang{position:relative}
+.lang summary{list-style:none;display:flex;align-items:center;gap:8px;cursor:pointer;padding:8px 12px;border:1px solid #E2DFD6;border-radius:999px;font-weight:600;font-size:15px;color:#13243A;min-height:44px;box-sizing:border-box}
+.lang summary::-webkit-details-marker{display:none}
+.lang summary:hover{background:#F6F5F1}
+.lang ul{position:absolute;inset-inline-end:0;top:calc(100% + 6px);margin:0;padding:6px;list-style:none;background:#FFFFFF;border:1px solid #E2DFD6;border-radius:12px;box-shadow:0 10px 30px rgba(19,36,58,.12);min-width:180px;z-index:20}
+.lang li a{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:8px;color:#13243A;text-decoration:none;font-weight:600}
+.lang li a:hover{background:#F6F5F1}
+.lang li a[aria-current]{background:#13243A;color:#FFFFFF}
+.lang svg.flag{flex:none;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.12)}
+#lang-tip{display:none;background:#FBF3E4;border-bottom:1px solid #EAD9B8;color:#13243A;font-size:15px}
+#lang-tip.on{display:block}
+#lang-tip div{max-width:1200px;margin:0 auto;padding:10px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
+#lang-tip a{font-weight:700;color:#8A5A12}
+#lang-tip button{font:inherit;background:none;border:0;color:#13243A;cursor:pointer;min-width:44px;min-height:44px;font-size:20px;line-height:1}
