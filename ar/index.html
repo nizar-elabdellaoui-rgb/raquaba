@@ -12,9 +12,12 @@
 <link rel="alternate" hreflang="fr" href="https://www.raquaba.com/">
 <link rel="alternate" hreflang="en" href="https://www.raquaba.com/en/">
 <link rel="alternate" hreflang="ar" href="https://www.raquaba.com/ar/">
+<link rel="alternate" hreflang="zh" href="https://www.raquaba.com/zh/">
+<link rel="alternate" hreflang="x-default" href="https://www.raquaba.com/">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&amp;display=swap">
 </head>
 <body>
+<div id="lang-tip" role="region" aria-label="Language"><div><p style="margin:0"><span></span> <a href="./"></a></p><button type="button" aria-label="Fermer / Close">×</button></div></div>
 <div class="k1">
 <header class="k2">
 <div class="k3">
@@ -26,7 +29,7 @@
 <a href="#financement" class="k7">التمويل</a>
 <a href="#services" class="k7">الخدمات</a>
 <a href="#methode" class="k7">منهجيتنا</a>
-<span class="lang" style="display: flex; gap: 6px; align-items: center; font-size: 15px"><a href="../" hreflang="fr" lang="fr" style="color: #13243A; text-decoration: none; padding: 6px 8px; border-radius: 6px">FR</a><a href="../en/" hreflang="en" lang="en" style="color: #13243A; text-decoration: none; padding: 6px 8px; border-radius: 6px">EN</a><a href="../ar/" hreflang="ar" lang="ar" style="color: #13243A; text-decoration: none; padding: 6px 8px; border-radius: 6px; background: #13243A; color: #FFFFFF">ع</a></span>
+<details class="lang"><summary aria-label="اختر اللغة"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"></path></svg><svg class="flag" width="22" height="16" viewBox="0 0 30 20" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="30" height="20" fill="#C1272D"></rect><path d="M15.00 5.60L17.94 14.65L10.24 9.05L19.76 9.05L12.06 14.65Z" fill="none" stroke="#006233" stroke-width="1" stroke-linejoin="round"></path></svg><span>AR</span></summary><ul><li><a href="../" hreflang="fr" lang="fr" data-setlang="fr"><svg class="flag" width="22" height="16" viewBox="0 0 30 20" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="10" height="20" fill="#0055A4"></rect><rect x="10" width="10" height="20" fill="#FFFFFF"></rect><rect x="20" width="10" height="20" fill="#EF4135"></rect></svg>Français</a></li><li><a href="../en/" hreflang="en" lang="en" data-setlang="en"><svg class="flag" width="22" height="16" viewBox="0 0 30 20" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="30" height="20" fill="#012169"></rect><path d="M0 0L30 20M30 0L0 20" stroke="#FFFFFF" stroke-width="4"></path><path d="M0 0L30 20M30 0L0 20" stroke="#C8102E" stroke-width="1.5"></path><path d="M15 0V20M0 10H30" stroke="#FFFFFF" stroke-width="6"></path><path d="M15 0V20M0 10H30" stroke="#C8102E" stroke-width="3.5"></path></svg>English</a></li><li><a href="../ar/" hreflang="ar" lang="ar" data-setlang="ar" aria-current="page"><svg class="flag" width="22" height="16" viewBox="0 0 30 20" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="30" height="20" fill="#C1272D"></rect><path d="M15.00 5.60L17.94 14.65L10.24 9.05L19.76 9.05L12.06 14.65Z" fill="none" stroke="#006233" stroke-width="1" stroke-linejoin="round"></path></svg>العربية</a></li><li><a href="../zh/" hreflang="zh" lang="zh" data-setlang="zh"><svg class="flag" width="22" height="16" viewBox="0 0 30 20" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="30" height="20" fill="#EE1C25"></rect><path d="M5.00 2.00L6.76 7.43L2.15 4.07L7.85 4.07L3.24 7.43Z" fill="#FFDE00"></path><path d="M10.00 1.00L10.59 2.81L9.05 1.69L10.95 1.69L9.41 2.81ZM12.00 3.00L12.59 4.81L11.05 3.69L12.95 3.69L11.41 4.81ZM12.00 6.00L12.59 7.81L11.05 6.69L12.95 6.69L11.41 7.81ZM10.00 8.00L10.59 9.81L9.05 8.69L10.95 8.69L9.41 9.81Z" fill="#FFDE00"></path></svg>中文</a></li></ul></details>
 <a href="#contact" class="k8">احجز موعدًا</a>
 </nav>
 </div>
@@ -304,6 +307,17 @@ document.getElementById('lead-form').addEventListener('submit', function () {
   var f = this;
   setTimeout(function () { f.reset(); document.getElementById('form-merci').style.display = 'block'; }, 400);
 });
+</script>
+<script>
+(function(){try{var cur="ar",pre="../",D={fr:"",en:"en/",ar:"ar/",zh:"zh/"},M={"fr":["Cette page est disponible en français.","Voir en français"],"en":["This page is available in English.","View in English"],"ar":["هذه الصفحة متوفرة بالعربية.","عرض بالعربية"],"zh":["本页面提供中文版本。","查看中文版"]};
+document.querySelectorAll("[data-setlang]").forEach(function(a){a.addEventListener("click",function(){try{localStorage.setItem("rq-lang",a.getAttribute("data-setlang"))}catch(e){}})});
+var saved=null;try{saved=localStorage.getItem("rq-lang")}catch(e){}if(saved)return;
+var pref=(navigator.languages||[navigator.language||""]).map(function(l){return String(l).slice(0,2).toLowerCase()}).filter(function(l){return M[l]})[0];
+if(!pref||pref===cur)return;var t=document.getElementById("lang-tip"),m=M[pref];
+t.querySelector("span").textContent=m[0];var a=t.querySelector("a");a.textContent=m[1];a.href=(pre+D[pref])||"./";a.setAttribute("data-setlang",pref);a.setAttribute("lang",pref);
+if(pref==="ar"){t.setAttribute("dir","rtl")}a.addEventListener("click",function(){try{localStorage.setItem("rq-lang",pref)}catch(e){}});
+t.querySelector("button").addEventListener("click",function(){t.classList.remove("on");try{localStorage.setItem("rq-lang",cur)}catch(e){}});t.classList.add("on");
+}catch(e){}})();
 </script>
 </body>
 </html>
